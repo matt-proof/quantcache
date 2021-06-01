@@ -23,6 +23,12 @@ Necessary:
 - Write examples
 - Fix Problems where argument is list of lists
 - Function for setting file location
+- Fix runtime saving bug
+- No nans for printouts
+- raise errors for bad data
+- include floats?
+- indicate privacy with _
+- iPython objects
 
 Nice-to-Have
 
@@ -50,7 +56,8 @@ class CacheException(Exception):
 def is_data(val):
     """Determines if @val is a data or float object"""
 
-    return isinstance(val,(np.ndarray, pd.core.base.PandasObject,float))
+    # return isinstance(val,(np.ndarray, pd.core.base.PandasObject,float))
+    return isinstance(val,(np.ndarray, pd.core.base.PandasObject))
 
 def is_registrable(val):
     """Determines if @val is well-suited for data registration"""
