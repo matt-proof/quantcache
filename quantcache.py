@@ -22,6 +22,7 @@ Necessary:
 - Write documentation
 - Write examples
 - Fix Problems where argument is list of lists
+- Function for setting file location
 
 Nice-to-Have
 
