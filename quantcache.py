@@ -21,6 +21,7 @@ Necessary:
 - Write testing script with pytest
 - Write documentation
 - Write examples
+- Fix Problems where argument is list of lists
 
 Nice-to-Have
 
